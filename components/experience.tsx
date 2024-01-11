@@ -30,6 +30,7 @@ export default function Experience() {
 							textAlign: 'left',
 							padding: '1.3rem 2rem',
 						}}
+						visible
 						contentArrowStyle={{
 							borderRight:
 								theme === 'light'
