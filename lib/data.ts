@@ -2,9 +2,10 @@ import React from 'react'
 import { CgWorkAlt } from 'react-icons/cg'
 import { FaReact } from 'react-icons/fa'
 import { LuGraduationCap } from 'react-icons/lu'
-import corpcommentImg from '@/public/corpcomment.png'
-import rmtdevImg from '@/public/rmtdev.png'
-import wordanalyticsImg from '@/public/wordanalytics.png'
+import teigee from '@/public/teigee.png'
+import cubamax from '@/public/cubamax.jpg'
+import noPhoto from '@/public/noPhoto.webp'
+import leiizy from '@/public/Leiizy.jpg'
 
 export const links = [
 	{
@@ -62,7 +63,7 @@ export const experiencesData = [
 		title: 'Front-End Developer',
 		location: 'Matanzas, Cuba',
 		description:
-			'I  worked as a front-end developer on the Leiizy project from February 2023 to the present. My stack includes now: Next.js, Google Cloud, Redux, Material UI.',
+			'I  worked as a front-end developer on the Leiizy project from February 2022 to the present. My stack includes now: Next.js, Google Cloud, Redux, Material UI.',
 		icon: React.createElement(FaReact),
 		date: 'February 2022 - to the present day',
 	},
@@ -86,39 +87,39 @@ export const experiencesData = [
 
 export const projectsData = [
 	{
-		title: 'CorpComment',
+		title: 'Leiizy',
 		description:
-			'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-		tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-		imageUrl: corpcommentImg,
+			'I worked as a front-end developer on this startup project for 2 years. Users have access to a wide range of templates designed to simplify daily tasks.',
+		tags: ['React', 'Next.js', 'Google Cloud', 'Redux'],
+		imageUrl: leiizy,
 	},
 	{
-		title: 'rmtDev',
+		title: 'Teigee',
 		description:
-			'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-		tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-		imageUrl: rmtdevImg,
+			'It provides users, based on their geographical location, with the nearest businesses, indicating the ratings given by other users.',
+		tags: ['React', 'Next.js', 'Material UI', 'Redux'],
+		imageUrl: teigee,
 	},
 	{
-		title: 'Word Analytics',
+		title: 'SensCloud',
 		description:
-			'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-		tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-		imageUrl: wordanalyticsImg,
+			'A system that allows the management of climatological sensors, performing calculations and predictions based on the obtained data.',
+		tags: ['Express', 'Node.js', 'MongoDB', 'Git'],
+		imageUrl: noPhoto,
 	},
 	{
-		title: 'Word Analytics',
+		title: 'KYC.ONE',
 		description:
-			'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-		tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-		imageUrl: wordanalyticsImg,
+			'It was the layout of a platform that would facilitate the validation of KYC.',
+		tags: ['React', 'Vite', 'Chakra UI', 'Framer', 'Git'],
+		imageUrl: noPhoto,
 	},
 	{
-		title: 'Word Analytics',
+		title: 'Cubamax',
 		description:
-			'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-		tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-		imageUrl: wordanalyticsImg,
+			'It provides users with a range of services, including the notable features of remittance sending and payment for various services in Cuba.',
+		tags: ['React', 'Next.js', 'Material UI', 'Framer'],
+		imageUrl: cubamax,
 	},
 ] as const
 
